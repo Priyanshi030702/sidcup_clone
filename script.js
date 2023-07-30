@@ -1,12 +1,12 @@
 // JavaScript code
-var cursor = document.querySelector("#cursor");
-var cursorBlur = document.querySelector("#cursor-blur");
-document.addEventListener("mousemove", function (dets) {
-  cursor.style.left = dets.x - 12.5 + "px";
-  cursor.style.top = dets.y - 12.5 + "px";
-  cursorBlur.style.left = dets.x - 200 + "px";
-  cursorBlur.style.top = dets.y - 200 + "px";
-});
+// var cursor = document.querySelector("#cursor");
+// var cursorBlur = document.querySelector("#cursor-blur");
+// document.addEventListener("mousemove", function (dets) {
+//   cursor.style.left = dets.x - 12.5 + "px";
+//   cursor.style.top = dets.y - 12.5 + "px";
+//   cursorBlur.style.left = dets.x - 200 + "px";
+//   cursorBlur.style.top = dets.y - 200 + "px";
+// });
 
 gsap.to("#nav", {
   backgroundColor: "#000",
